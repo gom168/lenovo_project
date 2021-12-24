@@ -33,7 +33,6 @@ class AlipayView(APIView):
         # 2. 取出sign
         sign = processed_dict.pop("sign", None)
 
-        print("1111111111111111111111111111111")
 
         # 3. 生成ALipay对象
         alipay = AliPay(
@@ -52,14 +51,15 @@ class AlipayView(APIView):
             order_sn = processed_dict.get('out_trade_no', None)
             trade_no = processed_dict.get('trade_no', None)
             trade_status = processed_dict.get('trade_status', None)
-
-
             existed_orders = OrderInfo.objects.filter(order_sn=order_sn)
             for existed_order in existed_orders:
+                # 订单商品项
+                # 更新订单状态
                 existed_order.pay_status = True
                 existed_order.trade_no = trade_no
                 existed_order.pay_time = datetime.now()
                 existed_order.save()
+
         return HttpResponseRedirect('http://localhost:8080/#/helloHome')
 
     def post(self, request):
@@ -165,7 +165,8 @@ class ShoppingCartViewSet(viewsets.ModelViewSet):
         saved_record = serializer.save()
         nums = saved_record.goods_num - existed_goods_num
         goods = saved_record.goods
-        goods.goods_num -= nums
+
+
         goods.save()
 
 
@@ -225,6 +226,13 @@ class OrderGoodsViewSet(mixins.CreateModelMixin, mixins.ListModelMixin, mixins.R
 
     def perform_create(self, serializer):
         order_goods = serializer.save()
+        goods_num = order_goods.goods_num
+        goods = order_goods.goods
+
+        goods.goods_num -= goods_num
+        goods.sold_num += goods_num
+
+        goods.save()
 
         return order_goods
 

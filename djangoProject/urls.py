@@ -63,7 +63,7 @@ router.register(r'note', NotesViewSet, basename='note')
 router.register(r'note_comment', CommentViewSet, basename='note_comment')
 router.register(r'codes', SmsCodeViewSet, basename='codes')
 
-router.register(r'order_goods',OrderGoodsViewSet,basename='order_goods')
+router.register(r'order_goods', OrderGoodsViewSet, basename='order_goods')
 
 
 urlpatterns = [

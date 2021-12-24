@@ -45,6 +45,13 @@ notify_url = 'http://127.0.0.1:8000/alipay/return/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+# drf-extensions配置
+REST_FRAMEWORK_EXTENSIONS = {
+    'DEFAULT_CACHE_RESPONSE_TIMEOUT': 5
+}
+
+
+
 AUTH_USER_MODEL = 'users.UserProfile'
 
 # JWT配置

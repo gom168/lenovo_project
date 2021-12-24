@@ -1,8 +1,470 @@
 raw_data = [
     {
-        'goods_sn': [
+        'goods_sn':
+            '578976',
+        # 商品货号
+
+        'images': [
+            'goods/image/578976-1.jpg',  # 第一张为封面图
+            'goods/image/578976-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥11499元',
+        'name': 'ThinkPad T14',
+        'num': 4745,
+        'is_new': True,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad T14 2021 酷睿版 英特尔酷睿i7 硬核专业办公本 5VCD',
+        'desc': '<p>第11代智能英特尔酷睿i7-1165G7/Windows 10 家庭中文版/16GB/512GB SSD/NVIDIA GeForce MX450 2GB DDR6独立显存/LTE版/14英寸FHD 广视角技术 72%NTSC LP高亮屏/内置SIM卡（24个月流量）</p>'
+    },
+    {
+        'goods_sn':
+            '560341',
+        # 商品货号
+
+        'images': [
+            'goods/image/560341-1.jpg',  # 第一张为封面图
+            'goods/image/560341-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥9499元',
+        'name': 'ThinkPad T15',
+        'num': 3274,
+        'is_new': False,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad T15 2021 酷睿版 英特尔酷睿i5 大屏高性能办公本 52CD',
+        'desc': '<p>第11代智能英特尔酷睿i5-1135G7/Windows 10 家庭中文版/8GB+8GB/512GB SSD/NVIDIA GeForce MX450 2GB DDR6独立显存/15.6英寸FHD 广视角 防眩光雾面屏/LTE版/内置SIM卡（24个月流量）</p>'
+    },
+    {
+        'goods_sn':
+            '517239',
+        # 商品货号
+
+        'images': [
+            'goods/image/560341-1.jpg',  # 第一张为封面图
+            'goods/image/560341-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥16499元',
+        'name': 'ThinkPad T14s',
+        'num': 1007,
+        'is_new': True,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad T14s 2021 酷睿版 英特尔酷睿i7 轻薄高能工作本',
+        'desc': '<p>第11代智能英特尔酷睿i7-1165G7/Windows 10 专业版/32GB/2TB SSD/锐炬Xe显卡/LTE版/14英寸72%NTSC FHD 广视角技术 防眩光雾面屏/内置SIM卡（24个月流量）</p>'
+    },
+    {
+        'goods_sn':
+            '594703',
+        # 商品货号
+
+        'images': [
+            'goods/image/594703-1.jpg',  # 第一张为封面图
+            'goods/image/594703-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥16999元',
+        'name': 'ThinkPad X1',
+        'num': 5000,
+        'is_new': True,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad X1 隐士 2021 英特尔酷睿i7 超轻薄创意设计本 01CD',
+        'desc': '<p>第十一代英特尔酷睿i7-11800H/Windows 10 家庭中文版/16GB/512G SSD/NVIDIA RTX 3060 6GB GDDR6独立显存/16英寸2.5k广视角LED背光显示屏400nit/100% sRGB</p>'
+    },
+    {
+        'goods_sn':
+            '502782',
+        # 商品货号
+
+        'images': [
+            'goods/image/502782-1.jpg',  # 第一张为封面图
+            'goods/image/502782-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥5799元',
+        'name': 'ThinkPad S2',
+        'num': 6788,
+        'is_new': False,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad S2 2021 锐龙版 笔记本电脑 07CD',
+        'desc': '<p>AMD 锐龙7 PRO 5850U处理器/Windows 10 家庭中文版/16GB/512GB SSD/Radeon Graphics显示芯片/13.3英寸FHD IPS LED背光显示屏TOUCH屏幕</p>'
+    },
+    {
+        'goods_sn':
+            '571825',
+        # 商品货号
+
+        'images': [
+            'goods/image/571825-1.jpg',  # 第一张为封面图
+            'goods/image/571825-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥6299元',
+        'name': 'ThinkPad X13',
+        'num': 2000,
+        'is_new': False,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad X13 2021 锐龙版 笔记本电脑 00CD',
+        'desc': '<p>AMD 锐龙5 PRO 5650U处理器/Windows 10 家庭中文版/16GB/512GB SSD/Radeon Graphics显示芯片/13.3英寸FHD LED背光显示屏</p>'
+    },
+    {
+        'goods_sn':
+            '549927',
+        # 商品货号
+
+        'images': [
+            'goods/image/549927-1.jpg',  # 第一张为封面图
+            'goods/image/549927-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥5299元',
+        'name': 'ThinkPad E14',
+        'num': 3000,
+        'is_new': False,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad E14 2021 英特尔酷睿i5 笔记本电脑 3SCD',
+        'desc': '<p>全新11代英特尔酷睿i5-1135G7/Windows 10 家庭中文版/16G/512GB SSD/英特尔锐钜Xe显卡/14英寸FHD 广视角 LED背光显示屏 100% sRGB 色域/银色</p>'
+    },
+    {
+        'goods_sn':
+            '511904',
+        # 商品货号
+
+        'images': [
+            'goods/image/511904-1.jpg',  # 第一张为封面图
+            'goods/image/511904-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥29999元',
+        'name': 'ThinkPad P15',
+        'num': 6000,
+        'is_new': True,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad P15 2021 英特尔酷睿i7 塔图级移动工作站 01CD',
+        'desc': '<p>第十一代智能英特尔酷睿i7-11800H/Windows 10 家庭中文版/16GB/1TB SSD/NVIDIA RTX A3000 6GB GDDR6独立显存/15.6英寸UHD 4K广视角 100%Adobe RGB屏幕</p>'
+    },
+    {
+        'goods_sn':
+            '550312',
+        # 商品货号
+
+        'images': [
+            'goods/image/550312-1.jpg',  # 第一张为封面图
+            'goods/image/550312-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥7999元',
+        'name': 'ThinkPad S2 Yoga',
+        'num': 7000,
+        'is_new': True,  # 是否新品
+        'is_hot': False,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad S2 Yoga 2021 英特尔酷睿i5 笔记本电脑 00CD',
+        'desc': '<p>全新11代英特尔酷睿i5-1135G7/Windows 10 家庭中文版/16GB/512GB SSD/英特尔锐钜Xe显卡/13.3英寸FHD 广视角 LED背光显示屏 100% sRGB触控屏/钛灰银</p>'
+    },
+    {
+        'goods_sn':
+            '529065',
+        # 商品货号
+
+        'images': [
+            'goods/image/529065-1.jpg',  # 第一张为封面图
+            'goods/image/529065-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥5499元',
+        'name': 'ThinkPad E15',
+        'num': 1000,
+        'is_new': True,  # 是否新品
+        'is_hot': False,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad E15 2021 英特尔酷睿i5 笔记本电脑 1SCD',
+        'desc': '<p>全新11代英特尔酷睿i5-1135G7/Windows 10 家庭中文版/16G/512GB SSD/英特尔锐钜Xe显卡/15.6英寸FHD 广视角 LED背光显示屏 100%sRGB色域/黑色</p>'
+    },
+    {
+        'goods_sn':
+            '588315',
+        # 商品货号
+
+        'images': [
+            'goods/image/588315-1.jpg',  # 第一张为封面图
+            'goods/image/588315-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥8999元',
+        'name': 'ThinkPad X1 Nano',
+        'num': 2000,
+        'is_new': False,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad X1 Nano 英特尔Evo平台认证酷睿i5至轻超薄笔记本WiFi版',
+        'desc': '<p>英特尔Evo平台认证酷睿i5-1130G7/Windows 10 家庭中文版/16GB/512GB SSD/锐钜Xe显卡/13英寸2K 广视角 LED背光显示屏/编织纹理A面/wifi版</p>'
+    },
+    {
+        'goods_sn':
+            '501693',
+        # 商品货号
+
+        'images': [
+            'goods/image/501693-1.jpg',  # 第一张为封面图
+            'goods/image/501693-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥8999元',
+        'name': 'ThinkPad X12',
+        'num': 4000,
+        'is_new': False,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad X12 英特尔酷睿i5 超便携商旅本 23CD',
+        'desc': '<p>第11代智能英特尔酷睿i5-1130G7/Windows 10 家庭中文版/16GB/512GB SSD/锐炬Xe显卡/12.3英寸FHD LED背光显示屏</p>'
+    },
+    {
+        'goods_sn':
+            '529038',
+        # 商品货号
+
+        'images': [
+            'goods/image/529038-1.jpg',  # 第一张为封面图
+            'goods/image/529038-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkPad笔记本'
+        ],
+        'price': '￥8499元',
+        'name': 'ThinkPad P15v',
+        'num': 500,
+        'is_new': True,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkPad P15v 英特尔酷睿i7 笔记本电脑 02CD',
+        'desc': '<p>十代英特尔酷睿i7-10750H/Windows 10 家庭中文版/16GB/512GB SSD/NVIDIA Quadro P620 4GB DDR5独立显存/15.6英寸FHD 广视角 LED背光显示屏</p>'
+    },
+    {
+        'goods_sn':
+            '619037',
+        # 商品货号
+
+        'images': [
+            'goods/image/619037-1.jpg',  # 第一张为封面图
+            'goods/image/619037-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkBook笔记本'
+        ],
+        'price': '￥7499元',
+        'name': 'ThinkBook 15p',
+        'num': 1200,
+        'is_new': False,  # 是否新品
+        'is_hot': False,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkBook 15p 酷睿i5 游戏办公笔记本电脑',
+        'desc': '<p>第十代智能英特尔酷睿i5-10300H/Windows 10 家庭中文版/16GB/1TGB SSD+512G SSD/NVIDIA GeForce GTX 1650 4G独显/15.6英寸FHD LED背光显示屏（100% sRGB高色域/TUV低蓝光认证）指纹解锁一键开机/银灰色 定制款</p>'
+    },
+    {
+        'goods_sn':
+            '620439',
+        # 商品货号
+
+        'images': [
+            'goods/image/620439-1.jpg',  # 第一张为封面图
+            'goods/image/620439-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            'ThinkBook笔记本'
+        ],
+        'price': '￥4299元',
+        'name': 'ThinkBook 14',
+        'num': 200,
+        'is_new': False,  # 是否新品
+        'is_hot': False,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkBook 14 2021 锐龙版 锐智系创造本 BGCD',
+        'desc': '<p>AMD锐龙5 5600U移动处理器/Windows 11 家庭版中文版/16GB/512GB SSD/核心显卡/14英寸FHD IPS LED背光显示屏 100%SRGB/电源键指纹识别/银灰色</p>'
+    },
+    {
+        'goods_sn':
+            '709253',
+        # 商品货号
+
+        'images': [
+            'goods/image/709253-1.jpg',  # 第一张为封面图
+            'goods/image/709253-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            '服务/选件'
+        ],
+        'price': '￥1699元',
+        'name': 'thinkplus会声全向麦音箱',
+        'num': 300,
+        'is_new': False,  # 是否新品
+        'is_hot': False,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'thinkplus会声全向麦音箱',
+        'desc': '<p>thinkplus会声全向麦音箱 全年低价秒杀</p>'
+    },
+    {
+        'goods_sn':
+            '746119',
+        # 商品货号
+
+        'images': [
+            'goods/image/746119-1.jpg',  # 第一张为封面图
+            'goods/image/746119-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            '服务/选件'
+        ],
+        'price': '￥1999元',
+        'name': '联想拯救者游戏电竞显示器',
+        'num': 500,
+        'is_new': False,  # 是否新品
+        'is_hot': False,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': '联想拯救者24.5英寸支持旋转升降IPS屏游戏电竞显示器Y25-25',
+        'desc': '<p>24.5英寸400尼特高亮屏幕 240Hz电竞级刷新率 HDR独立解码芯片</p>'
+    },
+    {
+        'goods_sn':
+            '743390',
+        # 商品货号
+
+        'images': [
+            'goods/image/743390-1.jpg',  # 第一张为封面图
+            'goods/image/743390-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            '服务/选件'
+        ],
+        'price': '￥899元',
+        'name': 'ThinkBook Pods Pro',
+        'num': 700,
+        'is_new': False,  # 是否新品
+        'is_hot': False,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkBook Pods Pro 无线蓝牙耳机',
+        'desc': '<p>PC直连即插即用，双麦克智能降噪，精准收音，急速快充</p>'
+    },
+    {
+        'goods_sn':
+            '791572',
+        # 商品货号
+
+        'images': [
+            'goods/image/791572-1.jpg',  # 第一张为封面图
+            'goods/image/791572-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            '服务/选件'
+        ],
+        'price': '￥699元',
+        'name': 'ThinkBook UC100 双联无线蓝牙耳机',
+        'num': 1000,
+        'is_new': False,  # 是否新品
+        'is_hot': False,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': 'ThinkBook UC100 双联无线蓝牙耳机',
+        'desc': '<p>一击双联，双设备同时在线</p>'
+    },
+    {
+        'goods_sn':
+            '865401',
+        # 商品货号
+
+        'images': [
+            'goods/image/865401-1.jpg',  # 第一张为封面图
+            'goods/image/865401-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            '服务/选件'
+        ],
+        'price': '￥1299元',
+        'name': '联想智能投影仪T200(银色)',
+        'num': 1100,
+        'is_new': False,  # 是否新品
+        'is_hot': True,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': '联想智能投影仪T200',
+        'desc': '<p>迷你便携、Type-c快充、2G+16G大内存！投影仪家用 智能口袋便携式户外微型投影机,1080P高清解码 高流明度 自动对焦 内置电池长续航</p>'
+    },
+    {
+        'goods_sn':
+            '801396',
+        # 商品货号
+
+        'images': [
+            'goods/image/801396-1.jpg',  # 第一张为封面图
+            'goods/image/801396-2.jpg',  # 第二张为简介图
+
+        ],
+        'categorys': [
+            '服务/选件'
+        ],
+        'price': '￥2099元',
+        'name': '联想个人云T2双盘位4T*2',
+        'num': 236,
+        'is_new': False,  # 是否新品
+        'is_hot': False,  # 是否热销
+        'ship_free': True,  # True为商家承担运费，反之为个人
+        'goods_brief': '联想个人云T2双盘位4T*2（主品T2无盘版+赠品个人云专用盘4TB*2）',
+        'desc': '<p>自动备份，数据无忧;海量存储，多人共用;共享分享，自由便捷;远程存取，全球畅联</p>'
+    },
+    {
+        'goods_sn':
             '200001',
-        ],  # 商品货号
+        # 商品货号
 
         'images': [
             'goods/image/200001 (1).jpg',  # 第一张为封面图
@@ -24,7 +486,8 @@ raw_data = [
 
     {
         'goods_sn':
-            '200002',  # 商品货号
+            '200002',
+        # 商品货号
 
         'images': [
             'goods/image/200002 (1).jpg',  # 第一张为封面图
@@ -45,7 +508,8 @@ raw_data = [
     },
     {
         'goods_sn':
-            '200003',  # 商品货号
+            '200003',
+        # 商品货号
 
         'images': [
             'goods/image/200003 (1).jpg',  # 第一张为封面图
@@ -66,7 +530,8 @@ raw_data = [
     },
     {
         'goods_sn':
-            '200004',  # 商品货号
+            '200004',
+        # 商品货号
 
         'images': [
             'goods/image/200004 (1).jpg',  # 第一张为封面图
@@ -87,7 +552,8 @@ raw_data = [
     },
     {
         'goods_sn':
-            '200005', # 商品货号
+            '200005',
+        # 商品货号
 
         'images': [
             'goods/image/200005 (1).jpg',  # 第一张为封面图
@@ -108,7 +574,8 @@ raw_data = [
     },
     {
         'goods_sn':
-            '200006', # 商品货号
+            '200006',
+        # 商品货号
 
         'images': [
             'goods/image/200006 (1).jpg',  # 第一张为封面图
@@ -130,7 +597,8 @@ raw_data = [
 
     {
         'goods_sn':
-            '100001',  # 商品货号
+            '100001',
+        # 商品货号
 
         'images': [
             'goods/image/100001 (1).jpg',  # 第一张为封面图
@@ -152,7 +620,8 @@ raw_data = [
 
     {
         'goods_sn':
-            '100002', # 商品货号
+            '100002',
+        # 商品货号
 
         'images': [
             'goods/image/100002 (1).jpg',  # 第一张为封面图
@@ -173,7 +642,8 @@ raw_data = [
     },
     {
         'goods_sn':
-            '100003', # 商品货号
+            '100003',
+        # 商品货号
 
         'images': [
             'goods/image/100003 (1).jpg',  # 第一张为封面图
@@ -194,7 +664,8 @@ raw_data = [
     },
     {
         'goods_sn':
-            '100004',# 商品货号
+            '100004',
+        # 商品货号
 
         'images': [
             'goods/image/100004 (1).jpg',  # 第一张为封面图
@@ -216,7 +687,8 @@ raw_data = [
 
     {
         'goods_sn':
-            '100005',# 商品货号
+            '100005',
+        # 商品货号
 
         'images': [
             'goods/image/100005 (1).jpg',  # 第一张为封面图
@@ -238,7 +710,8 @@ raw_data = [
 
     {
         'goods_sn':
-            '100006', # 商品货号
+            '100006',
+        # 商品货号
 
         'images': [
             'goods/image/100006 (1).jpg',  # 第一张为封面图
@@ -260,7 +733,8 @@ raw_data = [
 
     {
         'goods_sn':
-            '100007',# 商品货号
+            '100007',
+        # 商品货号
 
         'images': [
             'goods/image/100007 (1).jpg',  # 第一张为封面图
@@ -282,7 +756,8 @@ raw_data = [
 
     {
         'goods_sn':
-            '100008', # 商品货号
+            '100008',
+        # 商品货号
 
         'images': [
             'goods/image/100008 (1).jpg',  # 第一张为封面图
@@ -304,7 +779,7 @@ raw_data = [
 
     {
         'goods_sn':
-            '100009', # 商品货号
+            '100009',  # 商品货号
 
         'images': [
             'goods/image/100009 (1).jpg',  # 第一张为封面图
@@ -326,7 +801,8 @@ raw_data = [
 
     {
         'goods_sn':
-            '100010', # 商品货号
+            '100010',
+        # 商品货号
 
         'images': [
             'goods/image/100010 (1).jpg',  # 第一张为封面图
@@ -348,7 +824,8 @@ raw_data = [
 
     {
         'goods_sn':
-            '100011', # 商品货号
+            '100011',
+        # 商品货号
 
         'images': [
             'goods/image/100011 (1).jpg',  # 第一张为封面图
@@ -369,7 +846,8 @@ raw_data = [
     },
     {
         'goods_sn':
-            '100012', # 商品货号
+            '100012',
+        # 商品货号
 
         'images': [
             'goods/image/100012 (1).jpg',  # 第一张为封面图
@@ -391,7 +869,8 @@ raw_data = [
 
     {
         'goods_sn':
-            '100013', # 商品货号
+            '100013',
+        # 商品货号
 
         'images': [
             'goods/image/100013 (1).jpg',  # 第一张为封面图
@@ -413,7 +892,8 @@ raw_data = [
 
     {
         'goods_sn':
-            '100014',# 商品货号
+            '100014',
+        # 商品货号
 
         'images': [
             'goods/image/100014 (1).jpg',  # 第一张为封面图
@@ -434,7 +914,9 @@ raw_data = [
     },
 
     {
-        'goods_sn': '100015',  # 商品货号
+        'goods_sn':
+            '100015',
+        # 商品货号
 
         'images': [
             'goods/image/100015 (1).jpg',  # 第一张为封面图

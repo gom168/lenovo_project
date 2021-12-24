@@ -9,7 +9,7 @@ from .filters import GoodsFilter, SettingsFilter, CategoryOfgoodsFilter
 
 from rest_framework.views import APIView
 from rest_framework.response import Response
-
+from rest_framework_extensions.cache.mixins import CacheResponseMixin
 
 
 from rest_framework.filters import BaseFilterBackend
@@ -44,7 +44,7 @@ class GoodsImageViewSet(mixins.ListModelMixin, mixins.RetrieveModelMixin,viewset
     serializer_class = GoodsImageSerializer
 
 
-class GoodsListViewSet(mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class GoodsListViewSet(CacheResponseMixin,mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     '''商品列表页，并实现分页、搜索、过滤、排序'''
 
     queryset = Goods.objects.filter(is_delete=False).order_by('id')
