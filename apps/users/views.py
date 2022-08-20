@@ -115,6 +115,7 @@ def send_email(email, code):
     return 1
 
 
+
 class SmsCodeViewSet(CreateModelMixin, viewsets.GenericViewSet):
     '''发送邮件验证码'''
 

@@ -13,7 +13,7 @@ from utils.permissions import IsOwnerOrReadOnly
 
 class NotesViewSet(mixins.CreateModelMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
                    mixins.DestroyModelMixin, viewsets.GenericViewSet):
-    permission_classes = [IsAuthenticated, IsOwnerOrReadOnly]
+    permission_classes = [IsAuthenticated]
     authentication_classes = [JSONWebTokenAuthentication, SessionAuthentication]
     serializer_class = NotesSerializer
 
@@ -23,7 +23,7 @@ class NotesViewSet(mixins.CreateModelMixin, mixins.ListModelMixin, mixins.Retrie
 
 class CommentViewSet(mixins.CreateModelMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin,
                      mixins.DestroyModelMixin, viewsets.GenericViewSet):
-    permission_classes = [IsAuthenticated, IsOwnerOrReadOnly]
+    permission_classes = [IsAuthenticated]
     authentication_classes = [JSONWebTokenAuthentication, SessionAuthentication]
     serializer_class = UserCommentSerializer
     filter_backends = (django_filters.rest_framework.DjangoFilterBackend,)
